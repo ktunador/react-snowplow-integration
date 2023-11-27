@@ -1,0 +1,26 @@
+{
+  "name": "react-snowplow-integration",
+  "version": "0.0.1",
+  "description": "Sample project for using Snowplow with React",
+  "main": "index.js",
+  "author": "Kemal Tunador",
+  "license": "MIT",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "@snowplow/browser-plugin-link-click-tracking": "^3.17.0",
+    "@snowplow/browser-tracker": "^3.17.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}

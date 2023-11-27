@@ -1,0 +1,2 @@
+export const SNOWPLOW_ENDPOINT = process.env.SAMPLE_SNOWPLOW_ENDPOINT;
+export const SNOWPLOW_APP_ID = process.env.SAMPLE_SNOWPLOW_APP_ID;
